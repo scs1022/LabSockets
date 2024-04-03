@@ -1,7 +1,4 @@
 import java.net.*;
-
-import javax.xml.crypto.Data;
-
 import java.io.*;
 
 public class ServidorTCP {
@@ -29,6 +26,5 @@ public class ServidorTCP {
             dos.close();
             socket.close();
         }
-    }
-    
+    }    
 }
